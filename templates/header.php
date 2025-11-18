@@ -15,7 +15,7 @@
     <nav>
         <div class="logo">
             <a href="index.php">
-                <img src="pictures/logo2-zelene-TEXT.svg" alt="logo">
+                <img src="pictures/logo2-zelene-TEXT-delsi.svg" alt="logo">
             </a>
         </div>
         <ul>
