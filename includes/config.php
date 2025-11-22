@@ -1,4 +1,4 @@
 <?php
-$projectName = 'Studijní kartičky';
+$projectName = 'Studijní kartičky | Maturitní projekt';
 $author = 'Marián Demel';
 ?>

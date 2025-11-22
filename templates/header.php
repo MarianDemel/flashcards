@@ -15,13 +15,13 @@
     <nav>
         <div class="logo">
             <a href="index.php">
-                <img src="pictures/logo2-zelene-TEXT-delsi.svg" alt="logo">
+                <img src="pictures/logo2-zelene-TEXT.svg" alt="logo">
             </a>
         </div>
         <ul>
             <li><a href="#">Domů</a></li>
             <li><a href="#">O webu</a></li>
-            <li><a href="#">Nápověda</a></li>
+            <li><a href="#">Přihlášení</a></li>
         </ul>
     </nav>
 </body>
