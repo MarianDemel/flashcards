@@ -14,7 +14,7 @@ include_once 'templates/header.php';
     </div>
 
     <div class="button-container">
-        <a href="#" class="btn btn-primary">
+        <a href="login.php" class="btn btn-primary">
             ZAČNI TVOŘIT ZDARMA</a>
     </div>
 

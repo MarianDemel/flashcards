@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/login.css.">
 </head>
 <body>
     <nav>
@@ -19,9 +20,9 @@
             </a>
         </div>
         <ul>
-            <li><a href="#">Domů</a></li>
+            <li><a href="index.php">Domů</a></li>
             <li><a href="#">O webu</a></li>
-            <li><a href="#">Přihlášení</a></li>
+            <li><a href="login.php">Přihlášení</a></li>
         </ul>
     </nav>
 </body>

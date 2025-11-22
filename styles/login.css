@@ -1,0 +1,73 @@
+.login {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+.login-form {
+    background-color: white;
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login-form .container {
+    padding: 16px;
+}
+
+.login-form input[type=email],
+.login-form input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.login-form button {
+    background-color: #f39c12;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.login-form button:hover {
+    background-color: #edb050;
+    transition: 0.1s;
+}
+
+.login-form .container .registration span {
+    padding: 0.5rem 0;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #359393;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form .forgotten-password {
+    background-color: #f1f1f1;
+    text-align: right;
+    padding: 0.2rem 0.2rem;
+}

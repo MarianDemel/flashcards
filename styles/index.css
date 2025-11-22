@@ -7,10 +7,10 @@
 body {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
+    font-size: 18px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    zoom: 1.1;
 }
 
 nav {
@@ -49,6 +49,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #000;
+    transition: 0.1s;
 }
 
 .hero {
@@ -94,7 +95,11 @@ nav ul li a:hover {
     position: relative;
     top: -30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #edb050;
+    transition: 0.1s;
 }
 
 .tablet-section {
@@ -137,6 +142,8 @@ nav ul li a:hover {
     padding: 4rem 3rem;
     align-items: center;
     text-align: left;
+    display: flex;
+    justify-content: center;
 }
 
 
