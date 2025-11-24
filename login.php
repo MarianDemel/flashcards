@@ -18,8 +18,8 @@ include_once 'templates/header.php';
 
                 <button type="submit">Přihlásit se</button>
 
-                <div class="registration">
-                    <span>Nemáš účet? <a href="registration.php>">Zaregistruj se</a></span>
+                <div class="registration-button">
+                    <span>Nemáš účet? <a href="registration.php">Zaregistruj se</a></span>
                 </div>
             </div>
 
