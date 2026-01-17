@@ -1,73 +1,93 @@
 .registration {
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 100px;
-padding-bottom: 20px;
-background-color: #f2f2f2;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #f4f6f8;
 }
 
 .registration-form {
-background-color: white;
-border: 3px solid #f1f1f1;
-width: 100%;
-max-width: 400px;
-border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px;
+    padding: 2rem;
 }
 
 .registration-form h2 {
-text-align: center;
-margin: 20px 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2a3a5b;
+    font-size: 2rem;
 }
 
 .registration-form .container {
-padding: 16px;
+    padding: 0;
+}
+
+.registration-form h4 {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
 }
 
 .registration-form input[type=email],
 .registration-form input[type=password] {
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-box-sizing: border-box;
-border-radius: 8px;
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.registration-form input:focus {
+    border-color: #f39c12;
+    background-color: white;
+    outline: none;
 }
 
 .registration-form button {
-background-color: #f39c12;
-color: white;
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 100%;
-font-size: 16px;
-border-radius: 8px;
+    background-color: #f39c12;
+    color: white;
+    padding: 16px 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
 }
 
 .registration-form button:hover {
-background-color: #edb050;
-transition: 0.1s;
+    background-color: #e67e22;
+    transform: translateY(-2px);
 }
 
-.registration-form .container .login-button span {
-padding: 0.5rem 0;
+.registration-form .login-button {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #666;
 }
 
 .registration-form a {
-text-decoration: none;
-color: #359393;
+    text-decoration: none;
+    color: #2a3a5b;
+    font-weight: 600;
 }
 
 .registration-form a:hover {
-text-decoration: underline;
-}
-
-.registration-form .forgotten-password {
-background-color: #f1f1f1;
-text-align: right;
-padding: 0.2rem 0.2rem;
+    text-decoration: underline;
+    color: #f39c12;
 }
